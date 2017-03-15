@@ -1,6 +1,4 @@
 <?php
-ini_set(session_set_save_handler , redis);
-ini_set(session_save_path , "tcp://172.30.102.137:6379");
 session_start();
 $expireAfter = 1;
 
